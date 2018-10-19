@@ -9,6 +9,8 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import time
 
 import numpy as np
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
